@@ -19,7 +19,7 @@ import java.util.Properties;
 public class prueba {
 
 	public static void main(String[] args) throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver", "/home/tsoft/Descargas/chromedriver_linux/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "C:\\dev_automatizacion\\drivers\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		
 
